@@ -40,7 +40,7 @@ def queryRemove(queryR):
         queryR = queryR + " -" + removeStr
         return queryR
         
-#Displays question and reutrns boolean, True if yes False if no
+#Displays question and returns boolean, True if yes False if no
 def YorN(DispStr):
         yornStr = input(DispStr + " (Y/N): ")
         
